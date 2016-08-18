@@ -1,0 +1,18 @@
+import<./lades/head.lade>
+		div.navbar.navbar-inverse.navbar.navbar-fixed-top (controller:"header")
+			div.navbar-inner
+				div.contaniner
+					div.nav-collapse.collapse
+						ul.nav (list:"head")
+							li  (click:"")
+								a (html:"{{name}}")
+		div.container (controller:"body")
+			div.row
+				div.span3.bs-docs-sidebar (three:"three")
+					a
+				div.span9
+
+
+
+
+	script [src:"./js/init.js"]
